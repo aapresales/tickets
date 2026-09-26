@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>开票雷达 · 全国演出开售聚合</title>
+<style>
+:root{
+  --bg:#0d1117; --panel:#161b22; --panel2:#1c2129; --border:#2d333b;
+  --text:#e6edf3; --muted:#8b949e; --accent:#f0554d; --accent2:#ff7b54;
+  --green:#3fb950; --yellow:#d29922; --blue:#58a6ff; --purple:#bc8cff;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;min-height:100vh}
+.wrap{max-width:1200px;margin:0 auto;padding:24px 16px 60px}
+
+/* header */
+.hero{text-align:center;padding:28px 0 20px}
+.hero h1{font-size:28px;letter-spacing:2px}
+.hero h1 .radar{color:var(--accent)}
+.hero p{color:var(--muted);font-size:13px;margin-top:8px}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:20px 0}
+.stat{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 16px;text-align:center}
+.stat .num{font-size:24px;font-weight:700}
+.stat .lbl{font-size:12px;color:var(--muted);margin-top:4px}
+.stat.warn .num{color:var(--accent2)}
+.stat.ok .num{color:var(--green)}
+.stat.star .num{color:var(--yellow)}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:16px 0;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:12px 14px}
+.filters select,.filters input{background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:7px 10px;font-size:13px;outline:none}
+.filters input{flex:1;min-width:160px}
+.tabs{display:flex;gap:6px}
+.tab{padding:6px 14px;border-radius:20px;border:1px solid var(--border);background:var(--panel2);color:var(--muted);font-size:13px;cursor:pointer;transition:.15s}
+.tab.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.remind-btn{margin-left:auto;background:var(--purple);border:none;color:#fff;border-radius:8px;padding:7px 14px;font-size:13px;cursor:pointer}
+
+/* list */
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px;margin-top:16px}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px;position:relative;transition:.15s}
+.card:hover{border-color:#4a5360;transform:translateY(-2px)}
+.card.watched{border-color:var(--yellow)}
+.card-head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.badge{font-size:11px;padding:3px 9px;border-radius:12px;white-space:nowrap;font-weight:600}
+.badge.upcoming{background:rgba(240,85,77,.15);color:var(--accent2);border:1px solid rgba(240,85,77,.4)}
+.badge.onsale{background:rgba(63,185,80,.15);color:var(--green);border:1px solid rgba(63,185,80,.4)}
+.badge.done{background:rgba(139,148,158,.12);color:var(--muted)}
+.watch{background:none;border:none;font-size:18px;cursor:pointer;color:var(--muted);line-height:1}
+.card.watched .watch{color:var(--yellow)}
+.card h3{font-size:15px;line-height:1.45}
+.meta{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.meta span{display:flex;gap:6px;align-items:center}
+.price{font-size:12px;color:var(--blue)}
+.count{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:8px 12px;font-variant-numeric:tabular-nums}
+.count .cl{font-size:11px;color:var(--muted);margin-bottom:3px}
+.count .cv{font-size:16px;font-weight:700;color:var(--accent2);letter-spacing:1px}
+.count.soon .cv{color:var(--accent);animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.55}}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
+.btn{flex:1;min-width:90px;text-align:center;padding:8px 10px;border-radius:9px;font-size:13px;text-decoration:none;font-weight:600;border:none;cursor:pointer;transition:.15s}
+.btn.primary{background:var(--accent);color:#fff}
+.btn.primary:hover{background:#ff6b61}
+.btn.ghost{background:var(--panel2);color:var(--text);border:1px solid var(--border)}
+.btn.ghost:hover{border-color:var(--accent)}
+.src{font-size:11px;color:var(--muted);opacity:.7}
+
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:50px 0}
+
+/* footer / notes */
+.notes{margin-top:32px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px 18px;font-size:12.5px;color:var(--muted);line-height:1.9}
+.notes b{color:var(--text)}
+.notes summary{cursor:pointer;color:var(--text);font-weight:600;font-size:13.5px}
+.footer-note{margin-top:14px;font-size:12px;color:var(--muted);text-align:center}
+
+@media(max-width:480px){
+  .list{grid-template-columns:1fr}
+  .filters select{flex:1}
+  .remind-btn{margin-left:0;width:100%}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1><span class="radar">◉</span> 开票雷达 <span style="font-size:14px;color:var(--muted)">Ticket Radar</span></h1>
+    <p>全国演唱会 / 音乐节 / 体育赛事 开售信息聚合 · 倒计时提醒 · 一键直达官方购票页</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat warn"><div class="num" id="statUpcoming">-</div><div class="lbl">即将开售</div></div>
+    <div class="stat ok"><div class="num" id="statOnsale">-</div><div class="lbl">正在售票</div></div>
+    <div class="stat star"><div class="num" id="statWatch">-</div><div class="lbl">我的关注</div></div>
+  </div>
+
+  <div class="filters">
+    <select id="fCity"></select>
+    <select id="fType">
+      <option value="">全部类型</option>
+      <option>演唱会</option>
+      <option>音乐节</option>
+      <option>体育赛事</option>
+      <option>LIVEHOUSE</option>
+    </select>
+    <div class="tabs">
+      <div class="tab active" data-s="all">全部</div>
+      <div class="tab" data-s="upcoming">即将开售</div>
+      <div class="tab" data-s="onsale">正在售票</div>
+      <div class="tab" data-s="watch">⭐ 已关注</div>
+    </div>
+    <input id="fKw" placeholder="搜索歌手 / 演出名称 / 城市…">
+    <button class="remind-btn" id="btnNotify">🔔 开启开售提醒</button>
+  </div>
+
+  <div class="list" id="list"></div>
+
+  <details class="notes" style="margin-top:24px">
+    <summary>📖 数据说明与更新方法（点击展开）</summary>
+    <div style="margin-top:10px">
+      <b>数据来源：</b>同目录下的 <code>tickets.json</code>（每日定时任务自动更新）。若 JSON 加载失败则回退到页面内置的 <code>EVENTS</code> 兜底数据。开票时间请以官方平台（大麦 / 猫眼 / 票星球）最终公告为准。<br><br>
+      <b>如何手动新增 / 更新场次：</b>直接编辑 <code>tickets.json</code>，字段格式：title（演出名）、city、venue、showDate（演出时间）、price、saleTime（开售时间，格式 2026-10-01T19:00，未公布填 null）、type（演唱会/音乐节/体育赛事/LIVEHOUSE）、platforms（购票平台数组）、source（信息来源）。<br><br>
+      <b>提醒功能：</b>点击「开启开售提醒」并允许浏览器通知。对关注的演出，开售前 10 分钟和开售瞬间会弹系统通知（需保持本页面处于打开状态）。<br><br>
+      <b>一键直达：</b>按钮会打开对应平台的官方搜索页，请在官方页面完成购票。<br><br>
+      <b style="color:var(--accent)">⚠️ 合规说明：</b>本工具只做信息聚合与提醒，不含任何自动下单、抢票脚本。使用外挂抢票违反平台用户协议及演出市场管理规定，风险自担（封号 / 法律责任）。
+    </div>
+  </details>
+  <div class="footer-note">数据整理于 2026-09-26 · 点击 ⭐ 关注演出即可获得开售倒计时与通知提醒</div>
+</div>
+
+<script>
+/* ==================== 数据区：兜底数据（正常运行时以 tickets.json 为准） ==================== */
+let EVENTS = [
+ {title:"许嵩「安泊猜想」巡回演唱会-成都站",city:"成都",venue:"东安湖体育公园主体育场",showDate:"10-23 / 10-25 19:00",price:"¥318-1618",saleTime:"2026-09-21T19:00",type:"演唱会",platforms:["大麦","猫眼"],source:"成都本地宝"},
+ {title:"薛之谦「万兽之王」巡回演唱会-成都站",city:"成都",venue:"东安湖体育公园主体育场",showDate:"10-01~10-11 多场",price:"¥317-1717",saleTime:"2026-09-01T17:17",type:"演唱会",platforms:["大麦","猫眼"],source:"成都本地宝"},
+ {title:"林忆莲《回响:2.0》巡回演唱会-成都站",city:"成都",venue:"东安湖体育公园主体育场",showDate:"11-07 19:00",price:"¥380-980",saleTime:"2026-09-16T11:00",type:"演唱会",platforms:["大麦","猫眼","纷玩岛"],source:"成都本地宝"},
+ {title:"周华健「少年的奇幻之旅3.0」-济南站",city:"济南",venue:"济南奥体中心体育馆",showDate:"10-31 19:00",price:"待公布",saleTime:"2026-09-02T13:00",type:"演唱会",platforms:["大麦","猫眼"],source:"澎湃新闻"},
+ {title:"王力宏「最好的地方II」巡回演唱会-广州站",city:"广州",venue:"广东奥林匹克体育中心体育场",showDate:"11-07 / 11-08 19:00",price:"¥380-1880",saleTime:"2026-09-22T13:33",type:"演唱会",platforms:["大麦","猫眼"],source:"广州本地宝"},
+ {title:"汪苏泷《明日世界》世界巡回演唱会-广州站",city:"广州",venue:"广东奥林匹克体育中心体育场",showDate:"10-02~10-04",price:"¥380-1680",saleTime:"2026-09-22T13:00",type:"演唱会",platforms:["大麦","猫眼"],source:"广州本地宝"},
+ {title:"Charlie Puth「Whatever's Clever!」巡演-广州站",city:"广州",venue:"大湾区文化体育中心-体育场",showDate:"10-23 19:00",price:"¥580-1680",saleTime:"2026-09-21T15:18",type:"演唱会",platforms:["大麦","猫眼"],source:"广州白云发布"},
+ {title:"F✦FOREVER 恒星之城·银河加冕(鸟巢)限定场",city:"北京",venue:"国家体育场-鸟巢",showDate:"10-06~10-07",price:"¥488起",saleTime:null,type:"演唱会",platforms:["大麦"],source:"大麦网"},
+ {title:"2026北京大运河音乐节",city:"北京",venue:"北京·大运河文化广场",showDate:"10月",price:"¥198起",saleTime:null,type:"音乐节",platforms:["大麦"],source:"大麦网"},
+ {title:"2026阿那亚雁栖音乐假日",city:"北京",venue:"雁栖湖景区东门大草坪",showDate:"10-02~10-04",price:"¥128起",saleTime:null,type:"音乐节",platforms:["大麦"],source:"大麦网"},
+ {title:"孟庭苇《孟里花落知多少·花开如初》-北京站",city:"北京",venue:"国家体育馆",showDate:"10-06 18:30",price:"¥398起",saleTime:null,type:"演唱会",platforms:["大麦"],source:"大麦网"},
+ {title:"WTT中国大满贯2026",city:"北京",venue:"首钢滑雪大跳台区域",showDate:"10-01~10-11",price:"¥68起",saleTime:null,type:"体育赛事",platforms:["大麦"],source:"大麦网"},
+ {title:"2026中国网球公开赛",city:"北京",venue:"国家网球中心·首创钻石球场",showDate:"09-30~10-11",price:"¥180起",saleTime:null,type:"体育赛事",platforms:["大麦"],source:"大麦网"},
+ {title:"蔡琴演唱会-广州站",city:"广州",venue:"广州体育馆1号馆",showDate:"10-31 19:30",price:"¥299起",saleTime:null,type:"演唱会",platforms:["大麦","猫眼"],source:"大河票务(预售)"},
+ {title:"潘美辰「回家」2026世界巡回演唱会-广州站",city:"广州",venue:"中山纪念堂",showDate:"10-31 19:30",price:"¥180起",saleTime:null,type:"演唱会",platforms:["大麦","猫眼"],source:"大河票务(待开售)"},
+ {title:"庾澄庆「整晚哈音乐」巡回演唱会-广州站",city:"广州",venue:"宝能广州国际体育演艺中心",showDate:"11-14 19:00",price:"¥480起",saleTime:null,type:"演唱会",platforms:["大麦","猫眼"],source:"大河票务(待开售)"},
+ {title:"马国明×萧正楠×曹永廉《三生有幸》-广州站",city:"广州",venue:"中山纪念堂",showDate:"11-14 20:00",price:"¥280起",saleTime:null,type:"演唱会",platforms:["大麦","猫眼"],source:"大河票务(待开售)"},
+ {title:"刘大拿「拿爱发声2.0」巡回演唱会-广州站",city:"广州",venue:"MAO Livehouse(太古仓店)",showDate:"10-24 19:30",price:"¥198起",saleTime:null,type:"LIVEHOUSE",platforms:["大麦"],source:"大河票务(待开售)"},
+ {title:"粥粥和小伙「放轻松」巡演-广州站",city:"广州",venue:"MAO Livehouse(太古仓店)",showDate:"10-17 19:50",price:"¥99起",saleTime:null,type:"LIVEHOUSE",platforms:["大麦"],source:"大河票务(待开售)"},
+ {title:"少司命「入我彀中」专场-北京站",city:"北京",venue:"北京LIVERSE音宇宙艺术中心",showDate:"10-31 19:00",price:"¥328起",saleTime:null,type:"LIVEHOUSE",platforms:["大麦"],source:"大麦网"}
+];
+
+/* 平台官方直达链接（大麦为站内搜索直达，其余为官方首页/App 内搜索） */
+const PLATFORM_URLS = {
+ "大麦":   k => "https://search.damai.cn/search.html?keyword=" + encodeURIComponent(k),
+ "猫眼":   k => "https://show.maoyan.com/#/search?keyword=" + encodeURIComponent(k),
+ "票星球": k => "https://www.piaoxingqiu.com/",
+ "纷玩岛": k => "https://www.piaoxingqiu.com/"
+};
+
+/* ==================== 状态与渲染 ==================== */
+const LS_KEY = "ticket_radar_watch";
+let watchSet = new Set(JSON.parse(localStorage.getItem(LS_KEY) || "[]"));
+let notified = new Set();
+let curStatus = "all", curCity = "", curType = "", curKw = "";
+
+const $ = s => document.querySelector(s);
+const list = $("#list");
+
+function statusOf(ev){
+  if(!ev.saleTime) return "upcoming";           // 开售时间未公布 → 视为即将开售
+  const t = new Date(ev.saleTime).getTime();
+  if(Date.now() < t) return "upcoming";
+  return "onsale";
+}
+const STATUS_TXT = {upcoming:"即将开售", onsale:"在售中", done:"已开演"};
+const STATUS_CLS = {upcoming:"upcoming", onsale:"onsale", done:"done"};
+
+function fmtCountdown(ms){
+  if(ms <= 0) return "已开售！";
+  const d = Math.floor(ms/864e5), h = Math.floor(ms%864e5/36e5),
+        m = Math.floor(ms%36e5/6e4), s = Math.floor(ms%6e4/1e3);
+  return (d? d+"天 ":"") + String(h).padStart(2,"0")+":"+String(m).padStart(2,"0")+":"+String(s).padStart(2,"0");
+}
+
+function filtered(){
+  return EVENTS.map((ev,i)=>({ev, i})).filter(({ev})=>{
+    if(watchSet.has(ev.title) && curStatus==="watch") {}
+    if(curStatus==="watch" && !watchSet.has(ev.title)) return false;
+    if(curStatus==="upcoming" && statusOf(ev)!=="upcoming") return false;
+    if(curStatus==="onsale" && statusOf(ev)!=="onsale") return false;
+    if(curCity && ev.city!==curCity) return false;
+    if(curType && ev.type!==curType) return false;
+    if(curKw){
+      const k = curKw.toLowerCase();
+      if(!(ev.title+ev.city+ev.venue).toLowerCase().includes(k)) return false;
+    }
+    return true;
+  }).sort((a,b)=>{
+    const ta = a.ev.saleTime? new Date(a.ev.saleTime).getTime() : Infinity;
+    const tb = b.ev.saleTime? new Date(b.ev.saleTime).getTime() : Infinity;
+    if(curStatus==="upcoming" || curStatus==="all") return ta - tb;   // 越近开售越靠前
+    return ta - tb;
+  });
+}
+
+function render(){
+  // stats
+  const up = EVENTS.filter(e=>statusOf(e)==="upcoming").length;
+  const on = EVENTS.filter(e=>statusOf(e)==="onsale").length;
+  $("#statUpcoming").textContent = up;
+  $("#statOnsale").textContent = on;
+  $("#statWatch").textContent = watchSet.size;
+
+  const rows = filtered();
+  list.innerHTML = rows.length? "" : `<div class="empty">没有符合条件的演出，换个筛选条件试试</div>`;
+  rows.forEach(({ev,i})=>{
+    const st = statusOf(ev);
+    const card = document.createElement("div");
+    card.className = "card" + (watchSet.has(ev.title)? " watched":"");
+    card.dataset.i = i;
+    card.innerHTML = `
+      <div class="card-head">
+        <span class="badge ${STATUS_CLS[st]}">${STATUS_TXT[st]}</span>
+        <button class="watch" title="关注">${watchSet.has(ev.title)?"⭐":"☆"}</button>
+      </div>
+      <h3>${ev.title}</h3>
+      <div class="meta">
+        <span>📍 ${ev.city} · ${ev.venue}</span>
+        <span>🗓 ${ev.showDate} <span class="price">${ev.price}</span></span>
+        <span>🎫 ${ev.platforms.join(" / ")} <span class="src">— 来源:${ev.source}</span></span>
+      </div>
+      ${st==="upcoming" && ev.saleTime ? `<div class="count"><div class="cl">⏰ 距离开售（${ev.saleTime.replace("T"," ")}）</div><div class="cv" data-cd="${ev.saleTime}">--</div></div>` : ""}
+      ${st==="upcoming" && !ev.saleTime ? `<div class="count"><div class="cl">⏰ 开售时间待官宣，建议先关注+平台内预约</div></div>` : ""}
+      <div class="actions">
+        ${ev.platforms.map(p=>`<a class="btn ${p==="大麦"?"primary":"ghost"}" target="_blank" rel="noopener" href="${PLATFORM_URLS[p]? PLATFORM_URLS[p](ev.title.split("-")[0].replace(/[「『]/g,"")) : "#"}">一键直达${p}</a>`).join("")}
+      </div>`;
+    card.querySelector(".watch").onclick = ()=>{
+      watchSet.has(ev.title)? watchSet.delete(ev.title) : watchSet.add(ev.title);
+      localStorage.setItem(LS_KEY, JSON.stringify([...watchSet]));
+      render();
+    };
+    list.appendChild(card);
+  });
+}
+
+/* 倒计时刷新 */
+setInterval(()=>{
+  document.querySelectorAll("[data-cd]").forEach(el=>{
+    const ms = new Date(el.dataset.cd).getTime() - Date.now();
+    el.textContent = fmtCountdown(ms);
+    el.parentElement.classList.toggle("soon", ms>0 && ms < 30*6e4); // 30分钟内闪烁
+  });
+}, 1000);
+
+/* 提醒：开售前10分钟 + 开售瞬间（仅限已关注 + 页面保持打开） */
+let notifyOn = false;
+$("#btnNotify").onclick = async ()=>{
+  if(!("Notification" in window)){ alert("此浏览器不支持通知"); return; }
+  const perm = await Notification.requestPermission();
+  notifyOn = perm === "granted";
+  $("#btnNotify").textContent = notifyOn? "🔔 提醒已开启" : "🔕 提醒被拒绝";
+};
+setInterval(()=>{
+  if(!notifyOn) return;
+  EVENTS.forEach(ev=>{
+    if(!ev.saleTime || !watchSet.has(ev.title) || notified.has(ev.title)) return;
+    const ms = new Date(ev.saleTime).getTime() - Date.now();
+    if(ms <= 0){
+      notified.add(ev.title);
+      new Notification("🎫 开售啦！", {body: ev.title + " 正在开售，一键直达官方购票页！"});
+    }else if(ms <= 10*6e4){
+      notified.add(ev.title);
+      new Notification("⏰ 即将开售", {body: ev.title + " 将于 10 分钟内开售，快去准备！"});
+    }
+  });
+}, 5000);
+
+/* 筛选器初始化与事件 */
+function initCity(){
+  const cities = [...new Set(EVENTS.map(e=>e.city))];
+  $("#fCity").innerHTML = `<option value="">全部城市</option>` + cities.map(c=>`<option>${c}</option>`).join("");
+}
+$("#fCity").onchange = e=>{ curCity = e.target.value; render(); };
+$("#fType").onchange = e=>{ curType = e.target.value; render(); };
+$("#fKw").oninput = e=>{ curKw = e.target.value.trim(); render(); };
+document.querySelectorAll(".tab").forEach(t=>{
+  t.onclick = ()=>{
+    document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+    t.classList.add("active");
+    curStatus = t.dataset.s;
+    render();
+  };
+});
+
+/* 启动：优先加载 tickets.json（后台数据文件），失败则用内置兜底数据 */
+(async function boot(){
+  try{
+    const res = await fetch("tickets.json?ts=" + Date.now(), {cache:"no-store"});
+    if(res.ok){
+      const data = await res.json();
+      const arr = Array.isArray(data) ? data : data.events;
+      if(Array.isArray(arr) && arr.length) EVENTS = arr;
+    }
+  }catch(e){ /* file:// 或文件缺失 → 用内置数据 */ }
+  initCity();
+  render();
+})();
+
+</script>
+</body>
+</html>
