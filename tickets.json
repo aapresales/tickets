@@ -270,5 +270,253 @@
       "大麦"
     ],
     "source": "大麦网"
+  },
+  {
+    "title": "周杰伦「嘉年华」世界巡回演唱会-青岛站",
+    "city": "青岛",
+    "venue": "青岛市民健身中心体育场",
+    "showDate": "10-03~10-05 19:00",
+    "price": "¥580-2380",
+    "saleTime": "2026-08-15T13:18",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "青岛本地宝"
+  },
+  {
+    "title": "陈小春「BIGMAN人一个」演唱会-成都站",
+    "city": "成都",
+    "venue": "五粮液文化体育中心综合体育馆",
+    "showDate": "10-25 19:00",
+    "price": "¥488-1288",
+    "saleTime": "2026-09-17T13:18",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "成都本地宝"
+  },
+  {
+    "title": "门尼「印·IN」2026巡回演唱会-成都站",
+    "city": "成都",
+    "venue": "成都金融城演艺中心",
+    "showDate": "10-17 19:00",
+    "price": "¥280-916",
+    "saleTime": "2026-09-16T13:58",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "票星球"
+    ],
+    "source": "成都本地宝"
+  },
+  {
+    "title": "张韶涵「玩家」巡回演唱会-徐州站",
+    "city": "徐州",
+    "venue": "徐州奥体中心主体育场",
+    "showDate": "10-31 19:00",
+    "price": "¥388-1580",
+    "saleTime": "2026-09-21T13:18",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "徐州本地宝"
+  },
+  {
+    "title": "李大奔BENZO《RUNWAY to SHOW·即刻登场》巡演-广州站",
+    "city": "广州",
+    "venue": "广州亚运城综合体育馆",
+    "showDate": "10-24 19:00",
+    "price": "¥380-980",
+    "saleTime": "2026-09-28T17:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "大麦网"
+  },
+  {
+    "title": "A-Lin「歌·迹 Journey」世界巡回演唱会-青岛站",
+    "city": "青岛",
+    "venue": "青岛市民健身中心体育馆",
+    "showDate": "10-17~10-18 19:30",
+    "price": "¥380-1380",
+    "saleTime": "2026-08-21T12:30",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "青岛新闻网"
+  },
+  {
+    "title": "林忆莲《回响:终章》2026巡回演唱会-上海站",
+    "city": "上海",
+    "venue": "虹口足球场",
+    "showDate": "10-10 / 10-17 19:00",
+    "price": "¥480-1380",
+    "saleTime": "2026-09-01T12:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "大河票务"
+  },
+  {
+    "title": "第十三届太湖湾音乐节",
+    "city": "常州",
+    "venue": "常州嬉戏谷",
+    "showDate": "10-01~10-04",
+    "price": "¥399起",
+    "saleTime": "2026-08-31T21:33",
+    "type": "音乐节",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "扬子晚报"
+  },
+  {
+    "title": "2026天目山音乐节",
+    "city": "杭州",
+    "venue": "杭州临安天目未来谷",
+    "showDate": "10-02~10-03",
+    "price": "待公布",
+    "saleTime": "2026-09-12T10:58",
+    "type": "音乐节",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "杭州网"
+  },
+  {
+    "title": "果酸嘉年华(Alan Walker/Kesha/Bastille)",
+    "city": "台州",
+    "venue": "台州市体育中心体育场",
+    "showDate": "10-02~10-03",
+    "price": "¥377-1377",
+    "saleTime": "2026-09-14T11:00",
+    "type": "音乐节",
+    "platforms": [
+      "大麦",
+      "猫眼",
+      "票星球"
+    ],
+    "source": "台州文旅"
+  },
+  {
+    "title": "周华健「少年的奇幻之旅3.0」-成都站",
+    "city": "成都",
+    "venue": "五粮液文化体育中心综合体育馆",
+    "showDate": "11-28 19:00",
+    "price": "¥399-1199",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼",
+      "纷玩岛"
+    ],
+    "source": "成都本地宝"
+  },
+  {
+    "title": "周传雄「念念不忘·再遇见PLUS」演唱会-成都站",
+    "city": "成都",
+    "venue": "东安湖体育公园主体育场",
+    "showDate": "11-14 19:00",
+    "price": "¥380-980",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼",
+      "纷玩岛"
+    ],
+    "source": "成都本地宝"
+  },
+  {
+    "title": "杨丞琳演唱会-武汉站",
+    "city": "武汉",
+    "venue": "武汉体育中心体育馆",
+    "showDate": "10-17 19:00",
+    "price": "¥380-1380",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "大河票务(待开售)"
+  },
+  {
+    "title": "谭维维《声声世世》风起八方巡演-武汉站",
+    "city": "武汉",
+    "venue": "武汉临空港大剧院",
+    "showDate": "10-17 19:30",
+    "price": "¥280-1280",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "大河票务(待开售)"
+  },
+  {
+    "title": "游鸿明演唱会-上海站",
+    "city": "上海",
+    "venue": "浦发银行东方体育中心",
+    "showDate": "10-11 19:00",
+    "price": "¥380-1080",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "大河票务(待开售)"
+  },
+  {
+    "title": "潘美辰《回家》巡回演唱会-上海站",
+    "city": "上海",
+    "venue": "九棵树未来艺术中心-大剧场",
+    "showDate": "10-05 19:30",
+    "price": "¥180-680",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "大河票务(待开售)"
+  },
+  {
+    "title": "举杯贺兰山·N次方爱尚览山演唱会(李宇春/莫文蔚/林志炫/宝石Gem)",
+    "city": "银川",
+    "venue": "银川览山公园",
+    "showDate": "10-03 19:30",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "金凤文旅"
+  },
+  {
+    "title": "温岚「岚·趴踢」Livehouse巡回-成都站",
+    "city": "成都",
+    "venue": "CH8绿树演艺中心",
+    "showDate": "12-25 19:00",
+    "price": "¥299起",
+    "saleTime": null,
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "成都本地宝"
   }
 ]
