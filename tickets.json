@@ -5,7 +5,7 @@
     "venue": "东安湖体育公园主体育场",
     "showDate": "10-23 / 10-25 19:00",
     "price": "¥318-1618",
-    "saleTime": "2026-09-21T19:00",
+    "saleTime": "2026-10-09T19:00",
     "type": "演唱会",
     "platforms": [
       "大麦",
@@ -103,26 +103,28 @@
     "city": "北京",
     "venue": "国家体育场-鸟巢",
     "showDate": "10-06~10-07",
-    "price": "¥488起",
-    "saleTime": null,
+    "price": "¥488-1688",
+    "saleTime": "2026-09-28T10:58",
     "type": "演唱会",
     "platforms": [
+      "猫眼",
       "大麦"
     ],
-    "source": "大麦网"
+    "source": "北京本地宝"
   },
   {
     "title": "2026北京大运河音乐节",
     "city": "北京",
-    "venue": "北京·大运河文化广场",
-    "showDate": "10月",
-    "price": "¥198起",
+    "venue": "北京城市副中心·绿心森林公园",
+    "showDate": "10-05~10-06",
+    "price": "¥198-497",
     "saleTime": null,
     "type": "音乐节",
     "platforms": [
-      "大麦"
+      "大麦",
+      "猫眼"
     ],
-    "source": "大麦网"
+    "source": "北京本地宝"
   },
   {
     "title": "2026阿那亚雁栖音乐假日",
@@ -356,12 +358,13 @@
     "title": "林忆莲《回响:终章》2026巡回演唱会-上海站",
     "city": "上海",
     "venue": "虹口足球场",
-    "showDate": "10-10 / 10-17 19:00",
+    "showDate": "10-10~11 / 10-16~17 19:00",
     "price": "¥480-1380",
     "saleTime": "2026-09-01T12:00",
     "type": "演唱会",
     "platforms": [
-      "大麦"
+      "大麦",
+      "猫眼"
     ],
     "source": "大河票务"
   },
@@ -427,17 +430,7 @@
     "venue": "东安湖体育公园主体育场",
     "showDate": "11-14 19:00",
     "price": "¥380-980",
-    "saleTime": null,
-    "type": "演唱会",
-    "platforms": [
-      "大麦",
-      "猫眼",
-      "纷玩岛"
-    ],
-    "source": "成都本地宝"
-  },
-  {
-    "title": "杨丞琳演唱会-武汉站",
+    "saleTime": "2026-09-28T15:00",
     "city": "武汉",
     "venue": "武汉体育中心体育馆",
     "showDate": "10-17 19:00",
@@ -518,5 +511,448 @@
       "大麦"
     ],
     "source": "成都本地宝"
+  },
+  {
+    "title": "凤凰传奇「吉祥如意」2026演唱会-北京站",
+    "city": "北京",
+    "venue": "国家体育场-鸟巢",
+    "showDate": "10-30~11-08 共6场",
+    "price": "¥380-1380",
+    "saleTime": "2026-09-28T12:00",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "北京本地宝"
+  },
+  {
+    "title": "刘宪华「ENJOY THE SHOW 华丽宪场」演唱会-北京站",
+    "city": "北京",
+    "venue": "国家体育馆",
+    "showDate": "10-11~10-12",
+    "price": "¥588-1688",
+    "saleTime": "2026-09-28T12:00",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "北京本地宝"
+  },
+  {
+    "title": "动力火车「一路向前」演唱会-北京站",
+    "city": "北京",
+    "venue": "国家体育馆",
+    "showDate": "11-07",
+    "price": "¥380-1280",
+    "saleTime": "2026-09-28T12:08",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "北京本地宝"
+  },
+  {
+    "title": "鹭卓「Ready To The Top Ⅱ 蓄力向上2.0」演唱会-北京站",
+    "city": "北京",
+    "venue": "国家体育馆",
+    "showDate": "10-17~10-18",
+    "price": "¥380-1280",
+    "saleTime": "2026-09-29T11:24",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "北京本地宝"
+  },
+  {
+    "title": "Capper「GAG Lounge GAG会客厅」演唱会-北京站",
+    "city": "北京",
+    "venue": "国家体育馆",
+    "showDate": "10-24 19:30",
+    "price": "¥380-980",
+    "saleTime": "2026-09-28T15:00",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "北京本地宝"
+  },
+  {
+    "title": "徐良「时间折叠」演唱会-北京站",
+    "city": "北京",
+    "venue": "华熙生物·润百颜中心",
+    "showDate": "10-01~10-07",
+    "price": "¥380-1580",
+    "saleTime": "2026-09-29T15:00",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "北京本地宝"
+  },
+  {
+    "title": "花粥「顺水推粥」巡回音乐会-北京站",
+    "city": "北京",
+    "venue": "东三LIVE乐游园",
+    "showDate": "11-13 19:00",
+    "price": "¥158起",
+    "saleTime": null,
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "大麦网"
+  },
+  {
+    "title": "高迪「银河倾泻时 精彩洒满宇宙」演唱会-北京站",
+    "city": "北京",
+    "venue": "1919LiveHouse",
+    "showDate": "10-01~10-02",
+    "price": "¥298起",
+    "saleTime": null,
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "大麦网"
+  },
+  {
+    "title": "声幻奇境巅峰之夜超级音乐盛典-广州站",
+    "city": "广州",
+    "venue": "广州大学城中心体育场",
+    "showDate": "10-01 / 10-03 17:00",
+    "price": "¥380-980",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "广州本地宝"
+  },
+  {
+    "title": "李玉刚《刚好遇见你》2026巡回演唱会-广州站",
+    "city": "广州",
+    "venue": "广州体育馆1号馆",
+    "showDate": "10-05 19:30",
+    "price": "¥280-1080",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "广州本地宝"
+  },
+  {
+    "title": "汉斯·季默「全新境界」音乐会-广州站",
+    "city": "广州",
+    "venue": "宝能广州国际体育演艺中心",
+    "showDate": "10-03 19:00",
+    "price": "¥480-2580",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "广州本地宝"
+  },
+  {
+    "title": "陈粒「一粒」十周年巡回演唱会-广州站",
+    "city": "广州",
+    "venue": "宝能广州国际体育演艺中心",
+    "showDate": "10-17 19:00",
+    "price": "¥399-999",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "广州本地宝"
+  },
+  {
+    "title": "周柏豪「BLOOMING CHAPTER 绽放之章」-广州站",
+    "city": "广州",
+    "venue": "广州体育馆1号馆",
+    "showDate": "10-10~10-11",
+    "price": "¥380-980",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "广州本地宝"
+  },
+  {
+    "title": "遇见美好·广州巅峰演唱会(阿杜/金海心/周传雄)",
+    "city": "广州",
+    "venue": "广州大学城体育中心体育场",
+    "showDate": "10-24 19:30",
+    "price": "¥288-888",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "大麦网"
+  },
+  {
+    "title": "欧阳娜娜「Playlist 播放清单」嘉年华演唱会-成都站",
+    "city": "成都",
+    "venue": "成都金融城演艺中心",
+    "showDate": "10-31 19:00",
+    "price": "¥380-1280",
+    "saleTime": "2026-09-30T13:15",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "成都本地宝"
+  },
+  {
+    "title": "庾澄庆「整晚哈」巡回演唱会-成都站",
+    "city": "成都",
+    "venue": "成都金融城演艺中心",
+    "showDate": "12-12 19:00",
+    "price": "¥380-1380",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼",
+      "票星球"
+    ],
+    "source": "成都本地宝"
+  },
+  {
+    "title": "马思唯「2026乐透人生」巡回演唱会-成都站",
+    "city": "成都",
+    "venue": "东安湖体育公园主体育场",
+    "showDate": "11-21 19:00",
+    "price": "¥280-680",
+    "saleTime": "2026-10-12T13:00",
+    "type": "演唱会",
+    "platforms": [
+      "纷玩岛",
+      "大麦",
+      "猫眼"
+    ],
+    "source": "成都本地宝"
+  },
+  {
+    "title": "井胧井迪「Our·我们 幸好有你并肩」演唱会-成都站",
+    "city": "成都",
+    "venue": "成都金融城演艺中心",
+    "showDate": "10-24 19:00",
+    "price": "¥177-877",
+    "saleTime": "2026-09-29T15:28",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "成都本地宝"
+  },
+  {
+    "title": "周深「深深的」巡回演唱会-长沙站",
+    "city": "长沙",
+    "venue": "长沙贺龙体育场",
+    "showDate": "10-17~10-18 19:00",
+    "price": "¥399-1699",
+    "saleTime": "2026-09-08T20:00",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "长沙本地宝"
+  },
+  {
+    "title": "杨丞琳《房间里的大象》世界巡回演唱会-长沙站",
+    "city": "长沙",
+    "venue": "湖南国际会展中心D厅芒果馆",
+    "showDate": "11-14 19:00",
+    "price": "¥380-1380",
+    "saleTime": "2026-09-12T11:38",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "长沙本地宝"
+  },
+  {
+    "title": "GAI周延「REAL G」巡回演唱会-长沙站",
+    "city": "长沙",
+    "venue": "长沙贺龙体育场",
+    "showDate": "09-30 19:30",
+    "price": "¥299-1199",
+    "saleTime": "2026-09-08T11:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "长沙本地宝"
+  },
+  {
+    "title": "五条人「县·城·记」巡演城市篇-南京站",
+    "city": "南京",
+    "venue": "1701 Live House Max",
+    "showDate": "10-16",
+    "price": "¥288",
+    "saleTime": "2026-09-24T12:00",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "南京本地宝"
+  },
+  {
+    "title": "蒋敦豪《你来啦》全国巡回演唱会-南京站",
+    "city": "南京",
+    "venue": "南京奥体中心国缘V9体育馆",
+    "showDate": "10-17",
+    "price": "¥380-1180",
+    "saleTime": "2026-09-26T12:10",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "南京本地宝"
+  },
+  {
+    "title": "潘玮柏「MAD LOVE:ULTRA」巡回演唱会-南京站",
+    "city": "南京",
+    "venue": "乐动力江宁数字体育中心体育场",
+    "showDate": "10-24",
+    "price": "¥380-980",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "南京本地宝"
+  },
+  {
+    "title": "N²前滩音乐节",
+    "city": "上海",
+    "venue": "浦发银行前滩体育公园",
+    "showDate": "10-03~10-05",
+    "price": "¥258-458",
+    "saleTime": null,
+    "type": "音乐节",
+    "platforms": [
+      "猫眼",
+      "票星球",
+      "大麦"
+    ],
+    "source": "上海本地宝"
+  },
+  {
+    "title": "宝石Gem「原石季节」巡回演唱会-西安站",
+    "city": "西安",
+    "venue": "大明宫国家遗址公园御道广场",
+    "showDate": "10-17 19:00",
+    "price": "¥280-880",
+    "saleTime": "2026-09-28T15:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼",
+      "票星球"
+    ],
+    "source": "西安本地宝"
+  },
+  {
+    "title": "汪苏泷《明日世界》世界巡回演唱会-西安站",
+    "city": "西安",
+    "venue": "西安奥体中心体育场",
+    "showDate": "10-09~10-11 18:30",
+    "price": "¥380-1680",
+    "saleTime": "2026-09-23T13:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "票星球"
+    ],
+    "source": "西安本地宝"
+  },
+  {
+    "title": "周华健「少年的奇幻之旅3.0」-西安站",
+    "city": "西安",
+    "venue": "西安奥体中心体育馆",
+    "showDate": "10-24~10-25 19:00",
+    "price": "¥499-1199",
+    "saleTime": "2026-09-02T10:58",
+    "type": "演唱会",
+    "platforms": [
+      "纷玩岛",
+      "大麦",
+      "猫眼"
+    ],
+    "source": "西安本地宝"
+  },
+  {
+    "title": "苏见信「尽兴而活」巡回演唱会-西安站",
+    "city": "西安",
+    "venue": "西安城市运动公园体育馆",
+    "showDate": "11-21",
+    "price": "¥280-980",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "西安本地宝"
+  },
+  {
+    "title": "陈小春「BIGMAN人一个」巡回演唱会-西安站",
+    "city": "西安",
+    "venue": "西安奥体中心体育馆",
+    "showDate": "10-31 19:00",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "西安本地宝"
+  },
+  {
+    "title": "潮音风暴超级演唱会-昆明站",
+    "city": "昆明",
+    "venue": "昆明拓东体育场",
+    "showDate": "10-01 19:30",
+    "price": "¥288-988",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "大麦网"
+  },
+  {
+    "title": "「星宇宙计划」演唱会-襄阳站",
+    "city": "襄阳",
+    "venue": "襄阳奥林匹克体育中心体育场",
+    "showDate": "10-17~10-18",
+    "price": "待公布",
+    "saleTime": "2026-09-10T11:18",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "襄阳之声"
   }
 ]
