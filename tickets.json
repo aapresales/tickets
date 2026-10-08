@@ -2401,5 +2401,392 @@
       "大麦"
     ],
     "source": "长沙本地宝"
+  },
+  {
+    "title": "郭富城ICONIC世界巡回演唱会-临沂站",
+    "city": "临沂",
+    "venue": "临沂奥体公园体育馆",
+    "showDate": "10-10 19:30",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "临沂日报"
+  },
+  {
+    "title": "任贤齐《齐迹2026》巡回演唱会-临沂站",
+    "city": "临沂",
+    "venue": "临沂奥体中心体育馆",
+    "showDate": "11-14 / 11-15 19:00",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "纷玩岛",
+      "大麦",
+      "猫眼"
+    ],
+    "source": "琅琊新闻网"
+  },
+  {
+    "title": "2026泉州草莓音乐节",
+    "city": "泉州",
+    "venue": "泉州惠女海岸·青山湾",
+    "showDate": "10-17~10-18",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "音乐节",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "新浪新闻/主办方公告"
+  },
+  {
+    "title": "林子祥×叶蒨文「白头到老」演唱会-重庆站",
+    "city": "重庆",
+    "venue": "华熙生物·润百颜ECM中心",
+    "showDate": "10-11 19:30",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "重庆本地宝"
+  },
+  {
+    "title": "「潮起星辰·星耀万州」群星演唱会(张靓颖/詹雯婷/希林娜依·高/郭静)",
+    "city": "重庆",
+    "venue": "重庆万州体育中心体育场",
+    "showDate": "10-24 19:30",
+    "price": "待公布",
+    "saleTime": "2026-09-12T10:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "重庆本地宝"
+  },
+  {
+    "title": "2026张韶涵「玩家」巡回演唱会-昆明站",
+    "city": "昆明",
+    "venue": "昆明拓东体育中心体育场",
+    "showDate": "11-28",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "昆明本地宝"
+  },
+  {
+    "title": "张震岳「跟着感觉走」巡回演唱会-昆明站",
+    "city": "昆明",
+    "venue": "昆明滇池国际会展中心7号馆",
+    "showDate": "10-17~10-18 19:00",
+    "price": "¥380-980",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "昆明本地宝"
+  },
+  {
+    "title": "梁静茹《Best,茹果我不唱情歌》巡回演唱会-苏州站",
+    "city": "苏州",
+    "venue": "苏州奥林匹克体育中心体育场",
+    "showDate": "10-31 19:00",
+    "price": "¥399-1399",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "苏州发布/河马票务"
+  },
+  {
+    "title": "孙燕姿《就在日落以后》巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "杭州奥体中心体育场(大莲花)",
+    "showDate": "10-09 / 10-11 19:00",
+    "price": "¥480-1680",
+    "saleTime": "2026-08-07T15:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "杭州本地宝/文旅部审批"
+  },
+  {
+    "title": "周华健「少年的奇幻之旅3.0」巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "杭州奥体中心体育馆",
+    "showDate": "10-17~10-18 19:00",
+    "price": "待公布",
+    "saleTime": "2026-09-09T11:00",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "杭州本地宝"
+  },
+  {
+    "title": "张远「远行」巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "杭州奥体AT中心体育馆",
+    "showDate": "10-24~10-25 19:00",
+    "price": "待公布",
+    "saleTime": "2026-09-10T12:18",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "杭州本地宝"
+  },
+  {
+    "title": "老狼「纯真年代」巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "拱墅运河体育公园体育馆",
+    "showDate": "10-17 19:30",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "杭州发布"
+  },
+  {
+    "title": "Charlie Puth「Whatever's Clever!」巡演-杭州站",
+    "city": "杭州",
+    "venue": "杭州黄龙体育中心体育场",
+    "showDate": "10-25 19:30",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "杭州发布"
+  },
+  {
+    "title": "王嘉尔MAGICMAN2世界巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "杭州奥体中心体育馆",
+    "showDate": "11-14~11-15",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "杭州本地宝/文旅部审批"
+  },
+  {
+    "title": "李健「万物安生时」巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "杭州奥体中心体育馆",
+    "showDate": "11-07 19:30",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "杭州本地宝/文旅部审批"
+  },
+  {
+    "title": "陈小春「BIGMAN人一個」巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "杭州奥体中心体育馆",
+    "showDate": "11-21 19:00",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "杭州本地宝/文旅部审批"
+  },
+  {
+    "title": "马思唯「2026乐透人生」巡回演唱会-苏州站",
+    "city": "苏州",
+    "venue": "苏州奥林匹克体育中心体育馆",
+    "showDate": "11-14 19:30",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "苏州发布"
+  },
+  {
+    "title": "陈卓璇2026「当·拾」巡回演唱会-苏州站",
+    "city": "苏州",
+    "venue": "苏州市体育中心体育馆",
+    "showDate": "11-14 19:00",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "苏州发布"
+  },
+  {
+    "title": "「非凡青春」拾光演唱会(张靓颖/张柏芝/薛凯琪/庄心妍)",
+    "city": "苏州",
+    "venue": "昆山奥体中心足球场",
+    "showDate": "10-31 19:30",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "苏州发布"
+  },
+  {
+    "title": "陈小春「BIGMAN人一個」巡回演唱会-苏州站",
+    "city": "苏州",
+    "venue": "苏州奥林匹克体育中心体育馆",
+    "showDate": "12-12 19:00",
+    "price": "¥488-1288",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "黄河票务"
+  },
+  {
+    "title": "王赫野WINDY巡回演唱会-苏州站",
+    "city": "苏州",
+    "venue": "苏州奥林匹克体育中心体育馆",
+    "showDate": "11-07",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "苏州发布"
+  },
+  {
+    "title": "欢子「我的青春有你2.0」2026巡回演唱会-苏州站",
+    "city": "苏州",
+    "venue": "苏州市体育中心体育馆",
+    "showDate": "10-31 / 11-01",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "苏州发布"
+  },
+  {
+    "title": "林宥嘉《超级管家》巡回演唱会-苏州站",
+    "city": "苏州",
+    "venue": "苏州奥林匹克体育中心体育场",
+    "showDate": "10-17",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "苏州发布"
+  },
+  {
+    "title": "新裤子「北海怪兽·浪潮来临的时候」巡回演唱会-苏州站",
+    "city": "苏州",
+    "venue": "苏州奥体中心体育馆",
+    "showDate": "10-11",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "苏州发布"
+  },
+  {
+    "title": "王嘉尔MAGICMAN2世界巡回演唱会-苏州站",
+    "city": "苏州",
+    "venue": "苏州奥林匹克体育中心体育馆",
+    "showDate": "2027-01-09~01-10",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "苏州发布/大麦"
+  },
+  {
+    "title": "「与华相宜·悦见渭南」2026群星演唱会(沙宝亮/周晓鸥/潘美辰/周澎/庄心妍/海伦)",
+    "city": "渭南",
+    "venue": "渭南市体育中心体育场",
+    "showDate": "10-17 19:30",
+    "price": "¥98-680",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "渭南市融媒体中心"
+  },
+  {
+    "title": "「星熠之旅第三季·闪耀济宁」群星演唱会(潘玮柏/陈慧琳等)",
+    "city": "济宁",
+    "venue": "济宁奥体中心体育场",
+    "showDate": "10-10",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "海报新闻/德州新闻网"
+  },
+  {
+    "title": "胡彦斌「是一场烟火·刹那」2026巡回演唱会-兰州站",
+    "city": "兰州",
+    "venue": "兰州奥体中心郁金香室内综合馆",
+    "showDate": "10-17 19:00",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "华乐非凡/今日头条"
   }
 ]
