@@ -691,14 +691,15 @@
     "title": "遇见美好·广州巅峰演唱会(阿杜/金海心/周传雄)",
     "city": "广州",
     "venue": "广州大学城体育中心体育场",
-    "showDate": "10-24 19:30",
+    "showDate": "12-26 20:00",
     "price": "¥288-888",
-    "saleTime": null,
+    "saleTime": "2026-10-10T11:18",
     "type": "演唱会",
     "platforms": [
-      "大麦"
+      "大麦",
+      "猫眼"
     ],
-    "source": "大麦网"
+    "source": "广州本地宝"
   },
   {
     "title": "欧阳娜娜「Playlist 播放清单」嘉年华演唱会-成都站",
@@ -2788,5 +2789,405 @@
       "猫眼"
     ],
     "source": "华乐非凡/今日头条"
+  },
+  {
+    "title": "TizzyT「流行」巡回演唱会-西安站",
+    "city": "西安",
+    "venue": "西安奥体中心体育馆",
+    "showDate": "11-07 19:00",
+    "price": "¥380-1080",
+    "saleTime": "2026-10-09T14:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼",
+      "纷玩岛"
+    ],
+    "source": "西安本地宝"
+  },
+  {
+    "title": "张震岳《跟着感觉走》巡回演唱会-西安站",
+    "city": "西安",
+    "venue": "西安奥体中心体育馆",
+    "showDate": "11-21 19:00",
+    "price": "¥380-980",
+    "saleTime": "2026-10-10T11:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼",
+      "纷玩岛"
+    ],
+    "source": "西安本地宝"
+  },
+  {
+    "title": "艾志恒Asen「在雨后醒来」2026巡回演唱会-西安站",
+    "city": "西安",
+    "venue": "西安奥体中心体育馆",
+    "showDate": "11-14 19:00",
+    "price": "¥380-980",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "西安本地宝"
+  },
+  {
+    "title": "李玉刚《刚好遇见你》2026巡回演唱会-西安站",
+    "city": "西安",
+    "venue": "西安奥体中心体育馆",
+    "showDate": "11-28",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "陕西政务服务网"
+  },
+  {
+    "title": "吴若希「希冀」2026巡回演唱会-广州站",
+    "city": "广州",
+    "venue": "广州市中山纪念堂",
+    "showDate": "12-26 20:00",
+    "price": "¥188-488",
+    "saleTime": "2026-10-16T12:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "广州本地宝"
+  },
+  {
+    "title": "王嘉尔MAGICMAN2世界巡回演唱会-北京站",
+    "city": "北京",
+    "venue": "华熙生物·润百颜ECM中心",
+    "showDate": "10-17~10-18",
+    "price": "¥399-2999",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "大麦网/TEAMWANG"
+  },
+  {
+    "title": "庾澄庆「整晚哈音乐」2026演唱会-北京站",
+    "city": "北京",
+    "venue": "华熙生物·润百颜ECM中心",
+    "showDate": "10-24 19:00",
+    "price": "¥480-1380",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "大麦网"
+  },
+  {
+    "title": "Beyond乐队叶世荣2026「你中有我」巡回演唱会-北京站",
+    "city": "北京",
+    "venue": "首都体育馆",
+    "showDate": "10-17 19:00",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "大麦网"
+  },
+  {
+    "title": "崔健「继续撒点野」巡回演唱会-天津站",
+    "city": "天津",
+    "venue": "天津奥林匹克体育中心体育馆",
+    "showDate": "12-05",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "文旅部审批/天津本地宝"
+  },
+  {
+    "title": "老狼「纯真年代」巡回演唱会-天津站",
+    "city": "天津",
+    "venue": "天津大剧院",
+    "showDate": "12-18",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "文旅部审批"
+  },
+  {
+    "title": "新裤子「北海怪兽·浪潮来临的时候」巡回演唱会-天津站",
+    "city": "天津",
+    "venue": "天津奥林匹克体育中心体育馆",
+    "showDate": "12-12",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "文旅部审批"
+  },
+  {
+    "title": "陈婧霏《红霞影剧院(夏日版)》巡回演唱会-天津站",
+    "city": "天津",
+    "venue": "天津·大麦66LIVEHOUSE",
+    "showDate": "11-07",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "天津本地宝"
+  },
+  {
+    "title": "林志炫ONEtake3.0「耳顺」巡回演唱会-天津站",
+    "city": "天津",
+    "venue": "天津奥林匹克体育中心体育馆",
+    "showDate": "12-31 / 2027-01-01",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "文旅部审批"
+  },
+  {
+    "title": "Ella陈嘉桦 It's Me 艾拉主意巡回演唱会-合肥站",
+    "city": "合肥",
+    "venue": "合肥少荃体育中心体育馆",
+    "showDate": "12-05 19:00",
+    "price": "¥280-980",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "合肥本地宝"
+  },
+  {
+    "title": "王嘉尔MAGICMAN2世界巡回演唱会-合肥站",
+    "city": "合肥",
+    "venue": "合肥少荃体育中心",
+    "showDate": "12-19~12-20",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "合肥本地宝"
+  },
+  {
+    "title": "林志炫ONEtake3.0《耳顺》巡回演唱会-合肥站",
+    "city": "合肥",
+    "venue": "合肥少荃体育中心",
+    "showDate": "11-14",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "合肥本地宝"
+  },
+  {
+    "title": "李健「万物安生时」巡回演唱会-合肥站",
+    "city": "合肥",
+    "venue": "合肥少荃体育中心",
+    "showDate": "11-28",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "合肥本地宝"
+  },
+  {
+    "title": "何浩楠「HE ART」个人巡回演唱会-合肥站",
+    "city": "合肥",
+    "venue": "合肥少荃体育中心",
+    "showDate": "11-06~11-07",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "安徽省文旅厅/合肥本地宝"
+  },
+  {
+    "title": "老狼「纯真年代」巡回演唱会-合肥站",
+    "city": "合肥",
+    "venue": "合肥大剧院",
+    "showDate": "11-08",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "合肥本地宝"
+  },
+  {
+    "title": "鹭卓「Ready To The Top Ⅱ」巡回演唱会-合肥站",
+    "city": "合肥",
+    "venue": "合肥少荃体育中心",
+    "showDate": "11-21~11-22",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "合肥本地宝"
+  },
+  {
+    "title": "2026蜜桃音乐节",
+    "city": "宁波",
+    "venue": "宁波市紫璋台度假酒店",
+    "showDate": "10-31~11-01 15:00",
+    "price": "¥228-298",
+    "saleTime": null,
+    "type": "音乐节",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "奉化发布/东方演出网"
+  },
+  {
+    "title": "凤凰传奇「吉祥如意」2026巡回演唱会-南宁站",
+    "city": "南宁",
+    "venue": "广西体育中心主体育场",
+    "showDate": "12-04~12-06",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "良庆发布/文旅审批"
+  },
+  {
+    "title": "老狼「纯真年代」巡回演唱会-南宁站",
+    "city": "南宁",
+    "venue": "广西文化艺术中心",
+    "showDate": "11-21",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "良庆区文旅审批"
+  },
+  {
+    "title": "周深「深深的」巡回演唱会-南宁站",
+    "city": "南宁",
+    "venue": "广西体育中心主体育场",
+    "showDate": "2026-12-31~2027-01-01",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼",
+      "票星球"
+    ],
+    "source": "良庆发布/文旅审批"
+  },
+  {
+    "title": "梁静茹《Best,茹果我不唱情歌》世界巡回演唱会-南宁站",
+    "city": "南宁",
+    "venue": "广西体育中心主体育场",
+    "showDate": "11-14",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "良庆发布/文旅审批"
+  },
+  {
+    "title": "周杰伦「嘉年华Ⅱ」世界巡回演唱会-武汉站",
+    "city": "武汉",
+    "venue": "武汉体育中心体育场",
+    "showDate": "2027-04-09~04-11",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "新浪娱乐/文旅审批"
+  },
+  {
+    "title": "何浩楠「HEART」巡回演唱会-青岛站",
+    "city": "青岛",
+    "venue": "青岛国信体育馆",
+    "showDate": "10-17 19:00",
+    "price": "待公布",
+    "saleTime": "2026-10-02T18:08",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "大麦网/什么值得买"
+  },
+  {
+    "title": "何洁「底色」巡回演唱会-上海站",
+    "city": "上海",
+    "venue": "回响之地·长宁馆",
+    "showDate": "11-28 19:00",
+    "price": "待公布",
+    "saleTime": "2026-10-03T12:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "新浪新闻/索尼音乐"
+  },
+  {
+    "title": "2026「音浪巅峰」太原演唱会(张信哲/张靓颖/阿杜/海来阿木)",
+    "city": "太原",
+    "venue": "山西体育中心体育场",
+    "showDate": "10-17 19:30",
+    "price": "¥280-980",
+    "saleTime": "2026-08-05T13:18",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "黄河票务/山西日报"
   }
 ]
