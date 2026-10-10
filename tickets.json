@@ -306,7 +306,7 @@
     "venue": "成都金融城演艺中心",
     "showDate": "10-17 19:00",
     "price": "¥280-916",
-    "saleTime": "2026-09-16T13:58",
+    "saleTime": "2026-10-11T13:58",
     "type": "演唱会",
     "platforms": [
       "大麦",
@@ -382,34 +382,6 @@
     "source": "扬子晚报"
   },
   {
-    "title": "2026天目山音乐节",
-    "city": "杭州",
-    "venue": "杭州临安天目未来谷",
-    "showDate": "10-02~10-03",
-    "price": "待公布",
-    "saleTime": "2026-09-12T10:58",
-    "type": "音乐节",
-    "platforms": [
-      "大麦"
-    ],
-    "source": "杭州网"
-  },
-  {
-    "title": "果酸嘉年华(Alan Walker/Kesha/Bastille)",
-    "city": "台州",
-    "venue": "台州市体育中心体育场",
-    "showDate": "10-02~10-03",
-    "price": "¥377-1377",
-    "saleTime": "2026-09-14T11:00",
-    "type": "音乐节",
-    "platforms": [
-      "大麦",
-      "猫眼",
-      "票星球"
-    ],
-    "source": "台州文旅"
-  },
-  {
     "title": "周华健「少年的奇幻之旅3.0」-成都站",
     "city": "成都",
     "venue": "五粮液文化体育中心综合体育馆",
@@ -479,20 +451,6 @@
       "猫眼"
     ],
     "source": "大河票务(待开售)"
-  },
-  {
-    "title": "举杯贺兰山·N次方爱尚览山演唱会(李宇春/莫文蔚/林志炫/宝石Gem)",
-    "city": "银川",
-    "venue": "银川览山公园",
-    "showDate": "10-03 19:30",
-    "price": "待公布",
-    "saleTime": null,
-    "type": "演唱会",
-    "platforms": [
-      "大麦",
-      "猫眼"
-    ],
-    "source": "金凤文旅"
   },
   {
     "title": "温岚「岚·趴踢」Livehouse巡回-成都站",
@@ -605,52 +563,11 @@
     "source": "大麦网"
   },
   {
-    "title": "高迪「银河倾泻时 精彩洒满宇宙」演唱会-北京站",
-    "city": "北京",
-    "venue": "1919LiveHouse",
-    "showDate": "10-01~10-02",
-    "price": "¥298起",
-    "saleTime": null,
-    "type": "LIVEHOUSE",
-    "platforms": [
-      "大麦"
-    ],
-    "source": "大麦网"
-  },
-  {
-    "title": "声幻奇境巅峰之夜超级音乐盛典-广州站",
-    "city": "广州",
-    "venue": "广州大学城中心体育场",
-    "showDate": "10-01 / 10-03 17:00",
-    "price": "¥380-980",
-    "saleTime": null,
-    "type": "演唱会",
-    "platforms": [
-      "大麦",
-      "猫眼"
-    ],
-    "source": "广州本地宝"
-  },
-  {
     "title": "李玉刚《刚好遇见你》2026巡回演唱会-广州站",
     "city": "广州",
     "venue": "广州体育馆1号馆",
     "showDate": "10-05 19:30",
     "price": "¥280-1080",
-    "saleTime": null,
-    "type": "演唱会",
-    "platforms": [
-      "大麦",
-      "猫眼"
-    ],
-    "source": "广州本地宝"
-  },
-  {
-    "title": "汉斯·季默「全新境界」音乐会-广州站",
-    "city": "广州",
-    "venue": "宝能广州国际体育演艺中心",
-    "showDate": "10-03 19:00",
-    "price": "¥480-2580",
     "saleTime": null,
     "type": "演唱会",
     "platforms": [
@@ -707,7 +624,7 @@
     "venue": "成都金融城演艺中心",
     "showDate": "10-31 19:00",
     "price": "¥380-1280",
-    "saleTime": "2026-09-30T13:15",
+    "saleTime": "2026-10-13T14:30",
     "type": "演唱会",
     "platforms": [
       "大麦",
@@ -1071,20 +988,6 @@
     "source": "今日头条(9月28日开票汇总)"
   },
   {
-    "title": "萧敬腾「野生」巡回演唱会-深圳站",
-    "city": "深圳",
-    "venue": "深圳湾体育中心\"春茧\"体育场",
-    "showDate": "10-03 19:00",
-    "price": "¥280-1760",
-    "saleTime": null,
-    "type": "演唱会",
-    "platforms": [
-      "大麦",
-      "猫眼"
-    ],
-    "source": "大河票务(预售)"
-  },
-  {
     "title": "杨丞琳《房间里的大象》巡回演唱会-武汉站",
     "city": "武汉",
     "venue": "武汉体育中心体育馆",
@@ -1231,7 +1134,7 @@
     "venue": "东安湖体育公园多功能体育馆",
     "showDate": "10-17 19:00",
     "price": "¥590-1590",
-    "saleTime": "2026-10-02T15:00",
+    "saleTime": "2026-10-09T14:00",
     "type": "演唱会",
     "platforms": [
       "大麦",
@@ -1502,7 +1405,7 @@
     "venue": "三亚市体育中心白鹭体育馆",
     "showDate": "10-24 19:30",
     "price": "¥380-1280",
-    "saleTime": "2026-09-28T11:07",
+    "saleTime": "2026-10-12T17:18",
     "type": "演唱会",
     "platforms": [
       "大麦",
@@ -1551,19 +1454,6 @@
       "大麦"
     ],
     "source": "南宁本地宝"
-  },
-  {
-    "title": "张杰1982「开往未·LIVE」巡回演唱会-郑州站",
-    "city": "郑州",
-    "venue": "郑州奥林匹克体育中心体育场",
-    "showDate": "10-01~10-03 19:30",
-    "price": "¥380-1680",
-    "saleTime": "2026-09-29T12:20",
-    "type": "演唱会",
-    "platforms": [
-      "大麦"
-    ],
-    "source": "今日头条(9月29日开票汇总)"
   },
   {
     "title": "汪苏泷《明日世界》世界巡回演唱会-青岛站",
@@ -1663,21 +1553,6 @@
       "猫眼"
     ],
     "source": "荆楚网/襄阳文旅"
-  },
-  {
-    "title": "2026济宁福特纵横音乐节(大张伟/老狼/宝石Gem)",
-    "city": "济宁",
-    "venue": "邹城福特纵横户外主题乐园",
-    "showDate": "10-02~10-03 14:00",
-    "price": "¥168-768",
-    "saleTime": null,
-    "type": "音乐节",
-    "platforms": [
-      "大麦",
-      "猫眼",
-      "票星球"
-    ],
-    "source": "济宁本地宝"
   },
   {
     "title": "花亦山心之月游戏音乐嘉年华",
@@ -1960,7 +1835,7 @@
     "city": "广州",
     "venue": "广州天河体育中心体育场",
     "showDate": "12-04~12-06",
-    "price": "待公布",
+    "price": "¥580-2380",
     "saleTime": "2026-10-08T13:00",
     "type": "演唱会",
     "platforms": [
@@ -1975,8 +1850,8 @@
     "city": "三亚",
     "venue": "三亚市体育中心白鹭体育场",
     "showDate": "12-18~12-20",
-    "price": "待公布",
-    "saleTime": null,
+    "price": "¥580-2380",
+    "saleTime": "2026-10-15T15:18",
     "type": "演唱会",
     "platforms": [
       "大麦",
@@ -2133,7 +2008,7 @@
     "venue": "贵阳奥林匹克体育中心体育场",
     "showDate": "11-21~11-22",
     "price": "¥380-1880",
-    "saleTime": null,
+    "saleTime": "2026-10-12T15:33",
     "type": "演唱会",
     "platforms": [
       "大麦",
@@ -2533,8 +2408,8 @@
     "city": "杭州",
     "venue": "杭州奥体中心体育馆",
     "showDate": "10-17~10-18 19:00",
-    "price": "待公布",
-    "saleTime": "2026-09-09T11:00",
+    "price": "¥499-1299",
+    "saleTime": "2026-10-10T11:00",
     "type": "演唱会",
     "platforms": [
       "猫眼",
@@ -2587,10 +2462,10 @@
   {
     "title": "王嘉尔MAGICMAN2世界巡回演唱会-杭州站",
     "city": "杭州",
-    "venue": "杭州奥体中心体育馆",
+    "venue": "杭州奥体AT中心体育馆",
     "showDate": "11-14~11-15",
-    "price": "待公布",
-    "saleTime": null,
+    "price": "¥399-2999",
+    "saleTime": "2026-10-10T13:30",
     "type": "演唱会",
     "platforms": [
       "大麦"
@@ -3189,5 +3064,325 @@
       "猫眼"
     ],
     "source": "黄河票务/山西日报"
+  },
+  {
+    "title": "郭静「刚刚好的自己」巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "拱墅运河体育公园体育馆",
+    "showDate": "11-14 19:30",
+    "price": "¥380-980",
+    "saleTime": "2026-10-10T12:18",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "杭州本地宝"
+  },
+  {
+    "title": "希林娜依·高「G境之地」巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "拱墅运河体育公园体育馆",
+    "showDate": "11-21",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "杭州本地宝/文旅审批"
+  },
+  {
+    "title": "于文文「边界」世界巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "杭州奥体中心网球中心",
+    "showDate": "11-06",
+    "price": "¥580-1380",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "杭州本地宝/文旅审批"
+  },
+  {
+    "title": "Jony J「本命」2026巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "杭州奥体AT中心体育馆",
+    "showDate": "11-28",
+    "price": "¥598-998",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "杭州本地宝"
+  },
+  {
+    "title": "黄小琥「现在那边是几点」巡回演唱会-杭州站",
+    "city": "杭州",
+    "venue": "滨江体育馆",
+    "showDate": "11-14",
+    "price": "¥380-980",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "杭州本地宝"
+  },
+  {
+    "title": "Beyond乐队叶世荣2026「你中有我」巡回演唱会-成都站",
+    "city": "成都",
+    "venue": "五粮液文化体育中心综合体育馆",
+    "showDate": "11-21",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "成都本地宝"
+  },
+  {
+    "title": "郁可唯「仅你可见」私享生日音乐会-成都站",
+    "city": "成都",
+    "venue": "东区超级音乐现场",
+    "showDate": "10-24",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "成都本地宝"
+  },
+  {
+    "title": "2026「野火」音乐节",
+    "city": "湖州",
+    "venue": "吴兴吴乐湾音乐基地",
+    "showDate": "10-24",
+    "price": "待公布",
+    "saleTime": "2026-10-10T13:30",
+    "type": "音乐节",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "新浪财经/吴兴发布"
+  },
+  {
+    "title": "王嘉尔MAGICMAN2世界巡回演唱会-重庆站",
+    "city": "重庆",
+    "venue": "华熙生物·润百颜ECM中心",
+    "showDate": "11-28",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "茶竹永川网/大麦"
+  },
+  {
+    "title": "杨丞琳《房间里的大象》世界巡回演唱会-重庆站",
+    "city": "重庆",
+    "venue": "华熙生物·润百颜ECM中心",
+    "showDate": "12-31",
+    "price": "¥380-1380",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "茶竹永川网/大麦"
+  },
+  {
+    "title": "布瑞吉Bridge「77%轰趴」HomeParty演唱会-重庆站",
+    "city": "重庆",
+    "venue": "华熙生物·润百颜ECM中心",
+    "showDate": "11-08",
+    "price": "¥280-880",
+    "saleTime": "2026-10-08T11:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "茶竹永川网/大麦"
+  },
+  {
+    "title": "胡彦斌「是一场烟火·刹那」2026巡回演唱会-重庆站",
+    "city": "重庆",
+    "venue": "华熙生物·润百颜ECM中心",
+    "showDate": "10-31",
+    "price": "¥380-1080",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "茶竹永川网/大麦"
+  },
+  {
+    "title": "周华健「少年的奇幻之旅3.0」巡回演唱会-天津站",
+    "city": "天津",
+    "venue": "天津奥林匹克中心体育馆",
+    "showDate": "11-14~11-15 19:30",
+    "price": "待公布",
+    "saleTime": "2026-10-12T13:00",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "新浪演出"
+  },
+  {
+    "title": "汪峰《相信未来》巡回演唱会-常州站",
+    "city": "常州",
+    "venue": "新龙湖演艺中心",
+    "showDate": "12-12 19:00",
+    "price": "¥380起",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "黄河票务"
+  },
+  {
+    "title": "克里斯蒂安·齐默尔曼钢琴独奏音乐会-无锡站",
+    "city": "无锡",
+    "venue": "无锡交响音乐厅",
+    "showDate": "11-08 19:30",
+    "price": "¥80-1580",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "票星球"
+    ],
+    "source": "无锡本地宝"
+  },
+  {
+    "title": "Jon Steingard「Wo Shi 我是」2026中国巡演-北京站",
+    "city": "北京",
+    "venue": "MAO Livehouse(东郎店)",
+    "showDate": "12-03 20:00",
+    "price": "待公布",
+    "saleTime": "2026-10-08T13:30",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "演出圈/X-LIVE"
+  },
+  {
+    "title": "Jon Steingard「Wo Shi 我是」2026中国巡演-上海站",
+    "city": "上海",
+    "venue": "MAO Livehouse",
+    "showDate": "12-04 20:00",
+    "price": "待公布",
+    "saleTime": "2026-10-08T13:30",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "演出圈/X-LIVE"
+  },
+  {
+    "title": "Jon Steingard「Wo Shi 我是」2026中国巡演-杭州站",
+    "city": "杭州",
+    "venue": "MAO Livehouse",
+    "showDate": "12-05 20:00",
+    "price": "待公布",
+    "saleTime": "2026-10-08T13:30",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "演出圈/X-LIVE"
+  },
+  {
+    "title": "Jon Steingard「Wo Shi 我是」2026中国巡演-武汉站",
+    "city": "武汉",
+    "venue": "MAO Livehouse",
+    "showDate": "12-06 20:00",
+    "price": "待公布",
+    "saleTime": "2026-10-08T13:30",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "演出圈/X-LIVE"
+  },
+  {
+    "title": "Jon Steingard「Wo Shi 我是」2026中国巡演-成都站",
+    "city": "成都",
+    "venue": "月上西村艺术中心",
+    "showDate": "12-09 20:00",
+    "price": "待公布",
+    "saleTime": "2026-10-08T13:30",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "演出圈/X-LIVE"
+  },
+  {
+    "title": "Jon Steingard「Wo Shi 我是」2026中国巡演-重庆站",
+    "city": "重庆",
+    "venue": "寅派动力",
+    "showDate": "12-10 20:00",
+    "price": "待公布",
+    "saleTime": "2026-10-08T13:30",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "演出圈/X-LIVE"
+  },
+  {
+    "title": "Jon Steingard「Wo Shi 我是」2026中国巡演-深圳站",
+    "city": "深圳",
+    "venue": "MAO Livehouse(海上世界店)",
+    "showDate": "12-11 20:00",
+    "price": "待公布",
+    "saleTime": "2026-10-08T13:30",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "演出圈/X-LIVE"
+  },
+  {
+    "title": "Jon Steingard「Wo Shi 我是」2026中国巡演-广州站",
+    "city": "广州",
+    "venue": "MAO Livehouse(太古仓店)",
+    "showDate": "12-12 20:00",
+    "price": "待公布",
+    "saleTime": "2026-10-08T13:30",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "演出圈/X-LIVE"
   }
 ]
