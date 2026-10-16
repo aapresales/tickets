@@ -547,14 +547,14 @@
     "venue": "长沙贺龙体育场",
     "showDate": "10-17~10-18 19:00",
     "price": "¥399-1699",
-    "saleTime": "2026-09-28T20:00",
+    "saleTime": "2026-10-15T20:00",
     "type": "演唱会",
     "platforms": [
       "猫眼",
       "大麦",
       "票星球"
     ],
-    "source": "长沙本地宝"
+    "source": "周深官方后援会/长沙本地宝"
   },
   {
     "title": "杨丞琳《房间里的大象》世界巡回演唱会-长沙站",
@@ -841,13 +841,13 @@
     "venue": "武汉体育中心体育场",
     "showDate": "10-28 19:00",
     "price": "¥580-1680",
-    "saleTime": null,
+    "saleTime": "2026-10-14T15:28",
     "type": "演唱会",
     "platforms": [
       "大麦",
       "猫眼"
     ],
-    "source": "黄河票务/武汉本地宝"
+    "source": "武汉本地宝"
   },
   {
     "title": "陈小春「BIGMAN人一个」巡回演唱会-武汉站",
@@ -1923,14 +1923,15 @@
     "title": "李昊《Hunter》巡回演唱会-郑州站",
     "city": "郑州",
     "venue": "郑州市奥林匹克体育中心体育馆",
-    "showDate": "11-14~11-15",
-    "price": "待公布",
-    "saleTime": null,
+    "showDate": "11-14 19:00",
+    "price": "¥380-1180",
+    "saleTime": "2026-10-16T17:02",
     "type": "演唱会",
     "platforms": [
+      "猫眼",
       "大麦"
     ],
-    "source": "文旅部审批/郑州本地宝"
+    "source": "郑州本地宝"
   },
   {
     "title": "侯明昊「属于我们的...」巡回演唱会-郑州站",
@@ -3004,9 +3005,10 @@
     "venue": "新龙湖演艺中心",
     "showDate": "12-12 19:00",
     "price": "¥380起",
-    "saleTime": null,
+    "saleTime": "2026-10-13T11:00",
     "type": "演唱会",
     "platforms": [
+      "纷玩岛",
       "大麦",
       "猫眼"
     ],
@@ -4069,7 +4071,9 @@
     "saleTime": "2026-10-19T14:00",
     "type": "演唱会",
     "platforms": [
-      "大麦"
+      "纷玩岛",
+      "大麦",
+      "猫眼"
     ],
     "source": "上海本地宝"
   },
@@ -4126,5 +4130,252 @@
       "大麦"
     ],
     "source": "浙江在线体育/浙江稠州银行金牛"
+  },
+  {
+    "title": "范晓萱&100%「Let's Party TOUR 2026」巡回演唱会-上海站",
+    "city": "上海",
+    "venue": "瓦肆 VAS est",
+    "showDate": "10-24",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "百度百科/大麦"
+  },
+  {
+    "title": "范晓萱&100%「Let's Party TOUR 2026」巡回演唱会-广州站",
+    "city": "广州",
+    "venue": "CH8蛙厂演艺中心",
+    "showDate": "11-15",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "百度百科/大麦"
+  },
+  {
+    "title": "范晓萱&100%「Let's Party TOUR 2026」巡回演唱会-成都站",
+    "city": "成都",
+    "venue": "CH8绿树演艺中心",
+    "showDate": "12-12 19:00",
+    "price": "¥497-597",
+    "saleTime": "2026-10-14T17:17",
+    "type": "演唱会",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "成都发布/看度新闻"
+  },
+  {
+    "title": "胡彦斌「是一场烟火·刹那」2026巡回演唱会-武汉站",
+    "city": "武汉",
+    "venue": "武汉体育中心体育馆",
+    "showDate": "11-07 19:00",
+    "price": "待公布",
+    "saleTime": "2026-10-14T13:00",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼"
+    ],
+    "source": "武汉市文化和旅游局"
+  },
+  {
+    "title": "马思唯「2026乐透人生」巡回演唱会-武汉站",
+    "city": "武汉",
+    "venue": "武汉光谷国际网球中心中央球馆",
+    "showDate": "11-28 19:00",
+    "price": "待公布",
+    "saleTime": "2026-10-16T13:00",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "武汉市文化和旅游局"
+  },
+  {
+    "title": "「太热爱」2026巡回演唱会-武汉站",
+    "city": "武汉",
+    "venue": "武汉光谷国际网球中心中央球馆",
+    "showDate": "11-14",
+    "price": "待公布",
+    "saleTime": "2026-10-19T13:18",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼"
+    ],
+    "source": "武汉市文化和旅游局"
+  },
+  {
+    "title": "谭咏麟「与您·刻骨铭心」巡回演唱会-武汉站",
+    "city": "武汉",
+    "venue": "武汉光谷国际网球中心中央球馆",
+    "showDate": "12-31 / 2027-01-02",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "武汉市文化和旅游局"
+  },
+  {
+    "title": "李荣浩「黑马」世界巡回演唱会-广州站(跨年)",
+    "city": "广州",
+    "venue": "广州大学城体育中心体育场",
+    "showDate": "12-31 19:30",
+    "price": "待公布",
+    "saleTime": "2026-10-16T13:00",
+    "type": "演唱会",
+    "platforms": [
+      "纷玩岛"
+    ],
+    "source": "李荣浩工作室/新浪演出"
+  },
+  {
+    "title": "任贤齐《齐迹2026》巡回演唱会-湛江站",
+    "city": "湛江",
+    "venue": "湛江奥林匹克体育中心综合训练馆",
+    "showDate": "10-17 / 10-18 19:30",
+    "price": "待公布",
+    "saleTime": "2026-09-24T11:00",
+    "type": "演唱会",
+    "platforms": [
+      "纷玩岛",
+      "大麦",
+      "猫眼"
+    ],
+    "source": "华星演艺"
+  },
+  {
+    "title": "2026海南澄迈漓岛音乐节III",
+    "city": "澄迈",
+    "venue": "海南澄迈县漓岛公园",
+    "showDate": "12-18~12-20",
+    "price": "¥199-299",
+    "saleTime": "2026-10-15T10:58",
+    "type": "音乐节",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "海口本地宝"
+  },
+  {
+    "title": "低苦艾2026「廿艾」全国巡演-兰州站",
+    "city": "兰州",
+    "venue": "破晓艺术中心",
+    "showDate": "11-06",
+    "price": "待公布",
+    "saleTime": "2026-10-10T11:18",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "低苦艾工作室/东方演出网"
+  },
+  {
+    "title": "低苦艾2026「廿艾」全国巡演-杭州站",
+    "city": "杭州",
+    "venue": "杭州迷笛Live",
+    "showDate": "11-20",
+    "price": "待公布",
+    "saleTime": "2026-10-10T11:18",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "低苦艾工作室/东方演出网"
+  },
+  {
+    "title": "低苦艾2026「廿艾」全国巡演-广州站",
+    "city": "广州",
+    "venue": "疆进酒·OMNISPACE 1号馆",
+    "showDate": "11-28",
+    "price": "待公布",
+    "saleTime": "2026-10-10T11:18",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "低苦艾工作室/东方演出网"
+  },
+  {
+    "title": "低苦艾2026「廿艾」全国巡演-济南站",
+    "city": "济南",
+    "venue": "Caperland雀跃之地",
+    "showDate": "12-04",
+    "price": "待公布",
+    "saleTime": "2026-10-10T11:18",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "低苦艾工作室/东方演出网"
+  },
+  {
+    "title": "低苦艾2026「廿艾」全国巡演-合肥站",
+    "city": "合肥",
+    "venue": "OTW x 梵木艺术中心",
+    "showDate": "12-05",
+    "price": "待公布",
+    "saleTime": "2026-10-10T11:18",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "低苦艾工作室/东方演出网"
+  },
+  {
+    "title": "低苦艾2026「廿艾」全国巡演-武汉站",
+    "city": "武汉",
+    "venue": "VOX LIVEHOUSE",
+    "showDate": "12-11",
+    "price": "待公布",
+    "saleTime": "2026-10-10T11:18",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "低苦艾工作室/东方演出网"
+  },
+  {
+    "title": "低苦艾2026「廿艾」全国巡演-长沙站",
+    "city": "长沙",
+    "venue": "达丰空间(保利店)",
+    "showDate": "12-12",
+    "price": "待公布",
+    "saleTime": "2026-10-10T11:18",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "低苦艾工作室/东方演出网"
+  },
+  {
+    "title": "低苦艾2026「廿艾」全国巡演-郑州站",
+    "city": "郑州",
+    "venue": "7LIVEHOUSE+",
+    "showDate": "12-25",
+    "price": "待公布",
+    "saleTime": "2026-10-10T11:18",
+    "type": "LIVEHOUSE",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "低苦艾工作室/东方演出网"
   }
 ]
