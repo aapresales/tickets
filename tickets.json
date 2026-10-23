@@ -234,20 +234,6 @@
     "source": "青岛新闻网"
   },
   {
-    "title": "林忆莲《回响:终章》2026巡回演唱会-上海站",
-    "city": "上海",
-    "venue": "虹口足球场",
-    "showDate": "10-10~11 / 10-16~17 19:00",
-    "price": "¥480-1380",
-    "saleTime": "2026-09-01T12:00",
-    "type": "演唱会",
-    "platforms": [
-      "大麦",
-      "猫眼"
-    ],
-    "source": "大河票务"
-  },
-  {
     "title": "周华健「少年的奇幻之旅3.0」-成都站",
     "city": "成都",
     "venue": "五粮液文化体育中心综合体育馆",
@@ -487,19 +473,6 @@
       "大麦"
     ],
     "source": "长沙本地宝"
-  },
-  {
-    "title": "五条人「县·城·记」巡演城市篇-南京站",
-    "city": "南京",
-    "venue": "1701 Live House Max",
-    "showDate": "10-16",
-    "price": "¥288",
-    "saleTime": "2026-09-24T12:00",
-    "type": "LIVEHOUSE",
-    "platforms": [
-      "大麦"
-    ],
-    "source": "南京本地宝"
   },
   {
     "title": "蒋敦豪《你来啦》全国巡回演唱会-南京站",
@@ -1480,8 +1453,8 @@
     "city": "深圳",
     "venue": "深圳市体育中心体育馆",
     "showDate": "12-25 19:00",
-    "price": "待公布",
-    "saleTime": null,
+    "price": "¥319-1219",
+    "saleTime": "2026-11-04T12:19",
     "type": "演唱会",
     "platforms": [
       "大麦"
@@ -1987,7 +1960,7 @@
     "venue": "昆明拓东体育中心体育场",
     "showDate": "11-28",
     "price": "¥388-1580",
-    "saleTime": null,
+    "saleTime": "2026-10-27T11:18",
     "type": "演唱会",
     "platforms": [
       "猫眼",
@@ -2390,8 +2363,8 @@
     "city": "天津",
     "venue": "天津大剧院",
     "showDate": "12-18",
-    "price": "待公布",
-    "saleTime": null,
+    "price": "¥280-1280",
+    "saleTime": "2026-11-05T12:18",
     "type": "演唱会",
     "platforms": [
       "大麦"
@@ -2832,8 +2805,8 @@
     "city": "天津",
     "venue": "天津奥林匹克中心体育馆",
     "showDate": "11-14~11-15 / 11-21 19:30",
-    "price": "待公布",
-    "saleTime": "2026-10-13T13:00",
+    "price": "¥499-1299",
+    "saleTime": "2026-10-22T13:00",
     "type": "演唱会",
     "platforms": [
       "大麦",
@@ -4371,8 +4344,8 @@
     "city": "广州",
     "venue": "广州大学城体育中心体育场",
     "showDate": "12-19~12-20",
-    "price": "¥480-1380",
-    "saleTime": null,
+    "price": "¥380-1080",
+    "saleTime": "2026-10-26T11:00",
     "type": "演唱会",
     "platforms": [
       "纷玩岛",
@@ -4680,7 +4653,7 @@
     "venue": "宁波奥体中心体育馆",
     "showDate": "12-05~12-06",
     "price": "待公布",
-    "saleTime": null,
+    "saleTime": "2026-10-24T13:30",
     "type": "演唱会",
     "platforms": [
       "大麦"
@@ -5116,8 +5089,8 @@
     "city": "福州",
     "venue": "福州市长乐区体育中心",
     "showDate": "11-07~11-08",
-    "price": "待公布",
-    "saleTime": null,
+    "price": "¥198-468",
+    "saleTime": "2026-10-22T13:18",
     "type": "音乐节",
     "platforms": [
       "猫眼",
@@ -5232,5 +5205,158 @@
       "大麦"
     ],
     "source": "大麦网"
+  },
+  {
+    "title": "王赫野WINDY巡回演唱会-深圳站",
+    "city": "深圳",
+    "venue": "深圳市体育中心体育馆主馆",
+    "showDate": "12-05 19:00",
+    "price": "¥330-1280",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "深圳本地宝(演唱会审批通过汇总)"
+  },
+  {
+    "title": "黎明ROBBABA演唱会2026-深圳站",
+    "city": "深圳",
+    "venue": "深圳大运中心体育馆",
+    "showDate": "12-05 19:30",
+    "price": "¥588-1688",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "深圳本地宝(演唱会审批通过汇总)"
+  },
+  {
+    "title": "2026张智霖「在」巡回演唱会-深圳站",
+    "city": "深圳",
+    "venue": "深圳湾体育中心春茧体育馆",
+    "showDate": "11-28 19:00",
+    "price": "¥480-1280",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "深圳本地宝(演唱会审批通过汇总)"
+  },
+  {
+    "title": "2026张智霖「在」巡回演唱会-天津站",
+    "city": "天津",
+    "venue": "天津奥林匹克中心体育馆",
+    "showDate": "12-19 19:00",
+    "price": "¥480-1280",
+    "saleTime": "2026-10-26T13:18",
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "天津本地宝(10-26 13:18 开票)"
+  },
+  {
+    "title": "2026周兴哲「Odyssey·Stars旅程·星空」巡回演唱会-宁波站",
+    "city": "宁波",
+    "venue": "宁波奥体中心体育馆",
+    "showDate": "11-14 19:30",
+    "price": "¥480-1280",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "宁波本地宝(10-12月宁波演唱会排期表)"
+  },
+  {
+    "title": "动力火车「一路向前」巡回演唱会-宁波站",
+    "city": "宁波",
+    "venue": "宁波奥体中心体育馆",
+    "showDate": "12-12 19:30",
+    "price": "¥380-1280",
+    "saleTime": "2026-10-29T14:18",
+    "type": "演唱会",
+    "platforms": [
+      "猫眼",
+      "大麦"
+    ],
+    "source": "宁波本地宝(10-12月宁波演唱会排期表)"
+  },
+  {
+    "title": "谢霆锋《Evolution Nic Live 进化》巡回演唱会-广州站",
+    "city": "广州",
+    "venue": "广东省奥林匹克体育中心体育场",
+    "showDate": "12-19~12-20",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "广州本地宝"
+  },
+  {
+    "title": "谢霆锋《Evolution Nic Live 进化》巡回演唱会-南宁站",
+    "city": "南宁",
+    "venue": "广西体育中心主体育场",
+    "showDate": "2027-01-16~01-17",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "南宁本地宝/广西文旅厅审批公告"
+  },
+  {
+    "title": "2026 EDC雏菊电音嘉年华·唤醒之夜广州站",
+    "city": "广州",
+    "venue": "广州新门户音乐公园",
+    "showDate": "11-21 14:00",
+    "price": "¥380-680",
+    "saleTime": null,
+    "type": "音乐节",
+    "platforms": [
+      "大麦"
+    ],
+    "source": "腾讯新闻/白云区融媒体(官宣，大麦网预约)"
+  },
+  {
+    "title": "2026丁当「夜游 A Night Tour」北京夜未眠巡回演唱会-北京站",
+    "city": "北京",
+    "venue": "首都体育馆",
+    "showDate": "12-19 19:00",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "北京本地宝"
+  },
+  {
+    "title": "2026蔡琴「不要告别」巡回演唱会-苏州站",
+    "city": "苏州",
+    "venue": "苏州奥体中心体育馆",
+    "showDate": "2027-03-27",
+    "price": "待公布",
+    "saleTime": null,
+    "type": "演唱会",
+    "platforms": [
+      "大麦",
+      "猫眼"
+    ],
+    "source": "苏州本地宝/搜狐(演唱会上新)"
   }
 ]
